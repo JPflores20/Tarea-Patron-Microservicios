@@ -28,33 +28,11 @@ Este repositorio contiene los siguientes directorios y archivos:
     ├── requirements.txt             # depencias del microservicio
 ```
 
-## Instalación
 
-Descarga el código del repositorio utilizando el siguiente comando:
-
-`git clone https://gitlab.com/tareas-arquitectura-de-software-curso/microservicios/reporteador.git`
-
-accede a la carpeta del microservicio
-
-`cd reporteador`
-
-## Ejecución
-
-Lo primero será crear una imagen del microservicio, para ello utiliza el siguiente comando:
-
-`docker build -t reporteador .`
-
-Para ejecutar el sistema utiliza el siguiente comando:
-
-`docker run -d -p 8002:8002 --name reporteador reporteador`
-
-Para detener el sistema utiliza el siguiente comando:
-
-`docker stop reporteador`
 
 ## Versión
 
-3.0.0 - Febrero 2022
+3.0.1 - Mayo 2025
 
 ## Autores
 

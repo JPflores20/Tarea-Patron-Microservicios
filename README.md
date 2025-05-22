@@ -27,6 +27,21 @@ Este repositorio contiene los siguientes directorios y archivos:
     ├── docker-compose.yml                   # definición de contenedores para ambiente docker
     ├── README.md                            # este archivo
 ```
+## Configuración
+
+Antes de arrancar el microservicio deberás realizar las siguientes modificaciones. 
+### notificador/settings.ini
+
+Accede al archivo `settings.ini` y actualiza las variables `TOKEN` y `CHAT_ID`:
+
+```bash
+TOKEN = <TELEGRAM_TOKEN>
+CHAT_ID = <TELEGRAM_CHAT_ID>
+```
+
+> puedes consultar el siguiente [enlace](https://medium.com/@goyoregalado/bots-de-telegram-en-python-134b964fcdf7) 
+> para conocer más acerca del `TOKEN` y `CHAT_ID` de telegram.
+
 
 ## Ejecución
 
@@ -78,9 +93,14 @@ Por supuesto, la herramienta Docker es vital para la ejecución de este sistema.
 
 > Para realizar la instalación de Docker en Linux puedes consultar el siguiente [enlace](https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-on-ubuntu-20-04-es)
 
+
+
+
 ## Versión
 
 3.0.1 - Mayo 2025
+
+
 
 ## Autores
 
