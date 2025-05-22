@@ -38,10 +38,6 @@ Ingresa a la carpeta del proyecto:
 
 `cd docker-microservicios`
 
-Descarga el código fuente de los microservicios y componentes del sistema:
-
-`git submodule update --init --recursive`
-
 Construimos los contenedores
 `docker-commpose build -d`
 
@@ -51,8 +47,17 @@ Iniciamos los contenedores
 Ingresamos al localhost
 `http://localhost/`
 
-Opcional podemos ingresar al puerto 8003/records para ver que se esté ejecutando correctamente la base
-http://localhost:8003/records
+Añadimos clientes para que se cree la base de datos
+(Presionamos el boton de añadir cliente)
+
+       --- Opcional podemos ingresar al puerto "8003/records" para ver que se esté ejecutando correctamente la base
+       --- http://localhost:8003/records
+
+Abrimos docker y reiniciamos el microservicio de pagos 
+
+
+
+seleccionamos un 
 
 ## Configuración
 

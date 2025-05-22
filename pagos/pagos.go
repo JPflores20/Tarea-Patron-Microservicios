@@ -64,7 +64,6 @@ func loadRecords() error {
 func GetPayments(w http.ResponseWriter, r *http.Request) {
 	if err := loadRecords(); err != nil {
 		http.Error(w, err.Error(), http.StatusInternalServerError)
-		return
 	}
 
 	recordsLock.RLock()
