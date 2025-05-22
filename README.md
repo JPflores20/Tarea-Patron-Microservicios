@@ -42,7 +42,7 @@ Ingresa a la carpeta del proyecto:
 `cd docker-microservicios`
 
 Construimos los contenedores
-`docker-commpose build -d`
+`docker-commpose build`
 
 Iniciamos los contenedores
 `docker-commpose up -d`
