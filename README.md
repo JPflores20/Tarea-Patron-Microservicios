@@ -32,7 +32,7 @@ Este repositorio contiene los siguientes directorios y archivos:
 
 Descarga el código del repositorio utilizando el siguiente comando:
 
-`git clone https://gitlab.com/tareas-arquitectura-de-software-curso/microservicios/docker-microservicios.git`
+`git clone https://github.com/JPflores20/Tarea-Patron-Microservicios.git`
 
 Ingresa a la carpeta del proyecto:
 
@@ -41,6 +41,18 @@ Ingresa a la carpeta del proyecto:
 Descarga el código fuente de los microservicios y componentes del sistema:
 
 `git submodule update --init --recursive`
+
+Construimos los contenedores
+`docker-commpose build -d`
+
+Iniciamos los contenedores
+`docker-commpose up -d`
+
+Ingresamos al localhost
+`http://localhost/`
+
+Opcional podemos ingresar al puerto 8003/records para ver que se esté ejecutando correctamente la base
+http://localhost:8003/records
 
 ## Configuración
 

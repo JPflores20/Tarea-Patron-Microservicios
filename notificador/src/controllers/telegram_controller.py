@@ -33,4 +33,4 @@ class TelegramController:
                     "text": message
                 }
             response = requests.post(url, json=payload)
-            return response.status_code == 200
+            return jsonify({"msg": "Se envio correctamente"}), 200
