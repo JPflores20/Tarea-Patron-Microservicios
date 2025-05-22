@@ -28,7 +28,10 @@ Este repositorio contiene los siguientes directorios y archivos:
     ├── README.md                            # este archivo
 ```
 
-## Instalación
+## Ejecución
+
+Abrimos nuestro bot de telegram
+`https://t.me/ChatBotArquitectura_bot`
 
 Descarga el código del repositorio utilizando el siguiente comando:
 
@@ -53,64 +56,18 @@ Añadimos clientes para que se cree la base de datos
        --- Opcional podemos ingresar al puerto "8003/records" para ver que se esté ejecutando correctamente la base
        --- http://localhost:8003/records
 
-Abrimos docker y reiniciamos el microservicio de pagos 
+Esperamos unos momentos a que se cree el archivo .json (se puede visualizar siguiendo el paso opcional)
 
+Abrimos un cliente, verificamos el historial de pagos 
 
-
-seleccionamos un 
-
-## Configuración
-
-Antes de arrancar el sistema deberás realizar las siguientes modificaciones en los archivos de configuración. 
-
-> identifica la IP de tu máquina y reemplazala por el valor actual.
-
-### Gestor de clientes
-
-Para este microservicio no hay que realizar alguna configuración
-
-### Cliente
-
-Para este microservicio no hay que realizar alguna configuración
-
-### Notificador
-
-Accede al archivo `notificador/settings.ini` y actualiza las variables `TOKEN` y `CHAT_ID`:
-
-```bash
-TOKEN = <TELEGRAM_TOKEN>
-CHAT_ID = <TELEGRAM_CHAT_ID>
-```
-
-> puedes consultar el siguiente [enlace](https://medium.com/@goyoregalado/bots-de-telegram-en-python-134b964fcdf7) 
-> para conocer más acerca del `TOKEN` y `CHAT_ID` de telegram.
-
-### Pagos
-
-Para este microservicio no hay que realizar alguna configuración
-
-### Reporteador
-
-Para este microservicio no hay que realizar alguna configuración
-
-### Gateway
-
-Para este componente no hay que realizar alguna configuración
-
-## Ejecución
-
-Para ejecutar el sistema utiliza el siguiente comando:
-
-`docker-compose up -d`
+Enviamos una notificacion a nuestro bot en telegram para confirmar
 
 Para detener el sistema utiliza el siguiente comando:
 
 `docker-compose down`
 
-> al ejecutar el sistema se creará una carpeta `volume` donde se guardará la información que se genere en el sistema
-> si deseas reiniciar los datos basta con eliminar dicha carpeta
 
-## Preguntas Frecuentes
+
 
 ### ¿Necesito instalar Docker?
 
@@ -123,7 +80,7 @@ Por supuesto, la herramienta Docker es vital para la ejecución de este sistema.
 
 ## Versión
 
-3.0.0 - Febrero 2022
+3.0.1 - Mayo 2025
 
 ## Autores
 
