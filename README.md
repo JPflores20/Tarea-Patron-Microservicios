@@ -45,7 +45,7 @@ CHAT_ID = <TELEGRAM_CHAT_ID>
 
 ## Ejecución
 
-Abrimos nuestro bot de telegram
+Abrimos nuestro bot de telegram ejemplo: (hacerlo con bot propio)
 `https://t.me/ChatBotArquitectura_bot`
 
 Descarga el código del repositorio utilizando el siguiente comando:
